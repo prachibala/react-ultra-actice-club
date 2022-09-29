@@ -1,0 +1,14 @@
+.main {
+    background-color: #f0f2f5;
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+}
+.main-left {
+    margin: 7% 5%;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+.main-right {
+    background-color: #d6d3cf;
+}
