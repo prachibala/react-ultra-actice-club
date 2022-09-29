@@ -1,11 +1,35 @@
+.btnAdd {
+    width: 100%;
+    background-color: #6442fb;
+    border: none;
+    padding: 9px;
+    color: white;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    border: none;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.btnAdd:hover {
+    background-color: #87a2fb;
+}
 .item {
-    height: 460px;
-    padding: 8px;
+    height: 440px;
+    border: 1px solid #95a0a7;
+    padding: 20px;
+    border: none;
     border-radius: 9px;
-    background-color: #ffffff;
+    position: relative;
+    background-color: white;
 }
 .item img {
     object-fit: cover;
     width: 100%;
     border-radius: 8px;
+}
+.title {
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
