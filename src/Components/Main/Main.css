@@ -3,13 +3,19 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
-.main-left {
-    margin-top: 20%;
-    margin-left: 8%;
-    margin-right: 8%;
+.main-left-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 50px;
+}
+.main-left {
+    margin-top: 60px;
+    margin-left: 8%;
+    margin-right: 8%;
+}
+.main-left h1 {
+    color: #6442fb;
+    margin-bottom: 30px;
 }
 .main-right {
     background-color: white;

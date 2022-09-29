@@ -23,16 +23,23 @@ const Main = () => {
             .then((data) => setItems(data));
     }, []);
     return (
-        <div className="main">
+        <div className="main ">
             <div className="main-left">
-                {items.map((item) => (
-                    <Item
-                        item={item}
-                        key={item.id}
-                        btnHandle={btnHandle}
-                    ></Item>
-                ))}
+                <h1>Daily-Learning</h1>
+                <p className="fw-semibold fs-5 mb-4">
+                    Select today’s course activities
+                </p>
+                <div className="main-left-container">
+                    {items.map((item) => (
+                        <Item
+                            item={item}
+                            key={item.id}
+                            btnHandle={btnHandle}
+                        ></Item>
+                    ))}
+                </div>
             </div>
+
             <div className="main-right">
                 <div className="d-flex align-items-center ">
                     <img src={user} alt="" />
