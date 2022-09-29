@@ -3,7 +3,7 @@ import React from "react";
 const Blogs = () => {
     return (
         <div>
-            <div className="container mt-4">
+            <div className="container mt-4 mb-4">
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
@@ -25,9 +25,6 @@ const Blogs = () => {
                             data-bs-parent="#accordionExample"
                         >
                             <div className="accordion-body">
-                                <strong>
-                                    This is the first item's accordion body.
-                                </strong>
                                 ReactJS divides the UI into isolated reusable
                                 pieces of code known as components. React
                                 components work similarly to JavaScript
@@ -58,9 +55,6 @@ const Blogs = () => {
                             data-bs-parent="#accordionExample"
                         >
                             <div className="accordion-body">
-                                <strong>
-                                    This is the second item's accordion body.
-                                </strong>
                                 Props are used to pass data from one component
                                 to another. The state is a local data storage
                                 that is local to the component only and cannot
