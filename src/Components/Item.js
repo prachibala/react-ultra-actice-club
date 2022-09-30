@@ -3,7 +3,7 @@ import "./Item.css";
 const Item = (props) => {
     const { img, title, time, body } = props.item;
     return (
-        <div>
+        <div className="col p-4">
             {/* <div className="row row-cols-1 row-cols-md-3 g-4">
                 <div className="col">
                     <div className="card h-100 items">

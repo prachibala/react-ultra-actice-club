@@ -1,9 +1,9 @@
 import React from "react";
-
+import "./Blogs.css";
 const Blogs = () => {
     return (
-        <div>
-            <div className="container mt-4 mb-4">
+        <div className="blogs">
+            <div className="container  ">
                 <div className="accordion" id="accordionExample">
                     <div className="accordion-item">
                         <h2 className="accordion-header" id="headingOne">
@@ -50,7 +50,7 @@ const Blogs = () => {
                         </h2>
                         <div
                             id="collapseTwo"
-                            class="accordion-collapse collapse"
+                            className="accordion-collapse collapse"
                             aria-labelledby="headingTwo"
                             data-bs-parent="#accordionExample"
                         >

@@ -1,0 +1,11 @@
+.activityBtn {
+    width: 100%;
+    background-color: #6442fb;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 7px;
+}
+.mt {
+    margin-top: 60px;
+}

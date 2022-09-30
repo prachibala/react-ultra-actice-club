@@ -16,9 +16,10 @@
     background-color: #87a2fb;
 }
 .item {
-    height: 440px;
+    height: 100%;
     border: 1px solid #95a0a7;
     padding: 20px;
+    padding-bottom: 40px;
     border: none;
     border-radius: 9px;
     position: relative;
